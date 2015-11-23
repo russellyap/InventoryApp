@@ -8,6 +8,7 @@
     if (username != null && password != null) {
         StaffDAO staffDAO = new StaffDAO();
         try {
+            motherfucker!!!!!
             Staff staff = staffDAO.getStaff(username);
             if (staff.getPassword().equals(password)) {
                 session.setAttribute("user", staff);
