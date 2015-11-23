@@ -9,8 +9,6 @@
         StaffDAO staffDAO = new StaffDAO();
         I AM FUCKING COOL
         try {
-            KKNBCCB
-            fatherfucker!!!
             Staff staff = staffDAO.getStaff(username);
             if (staff.getPassword().equals(password)) {
                 session.setAttribute("user", staff);
@@ -31,5 +29,4 @@
         view.forward(request, response);
     }
 
-    Hello, how are you mother fucker?
 %>
