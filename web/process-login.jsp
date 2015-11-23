@@ -7,6 +7,7 @@
     String error = null;
     if (username != null && password != null) {
         StaffDAO staffDAO = new StaffDAO();
+        I AM FUCKING COOL
         try {
             KKNBCCB
             fatherfucker!!!
