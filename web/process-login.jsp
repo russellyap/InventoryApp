@@ -9,6 +9,7 @@
         StaffDAO staffDAO = new StaffDAO();
         Twinkle twinkle little star
         how i wonder what you are
+        up above the world so high
         try {
             Staff staff = staffDAO.getStaff(username);
             if (staff.getPassword().equals(password)) {
